@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/mainpage.css">
+    <link rel="shortcut icon" href="images/320x150logo.png" type="image/x-icon">
+    <title>오런완 - "오런완"</title>
+</head>
+<body>
+    <div id="ohrunwan">
+        <div id="wrap1">
+
+            <h1 title="오런완" ><a href="index.html"><img src="images/realLogo.png" alt="오런완 로고"></a></h1>
+
+            <nav id="lnb">
+                <ul>
+                    <li class="bar">
+                        <a href="notice.html">공지사항</a>
+                    </li>
+                    <li class="bar" title="aboutrunningcrew">
+                        <a href="runningcrewmap.html">러닝 크루 맵</a>
+                        <a href="lookingforcrewmem.html">크루원 구해요</a>
+                        <a href="lookingforcrew.html">크루 구해요</a>
+                    </li>
+                    <li class="bar">
+                        <a href="ohrunwan.html">오런완</a>
+                    </li>
+                    <li class="bar">
+                        <a href="runninginfo.html">러닝 정보</a>
+                        <a href="runningissue.html">러닝 이슈</a>
+                        <a href="info_contest.html">대회 정보</a>
+                    </li>
+                    <li class="bar">
+                        <a href="guestbook.html">내 방명록</a>
+                    </li>
+                    <li class="bar formBar">
+                        <h2>Login</h2>
+                            <form method="post" autocomplete="off" action="dustinjung.dothome.co.kr" id="loginForm">
+                                
+                                    <input type="text" id="navId" name="navId" required  maxlength="30" placeholder="E-mail">
+                                    <input type="password" id="navPassword" name="navPassword" required  maxlength="30" placeholder="Password">
+
+                                    <div class="check_box">
+
+                                    <label for=autoLogin>자동 로그인<input type="checkbox" name="autoLogin" id="autoLogin"></label>
+                                    <label for=saveId>아이디 저장<input type="checkbox" name="saveId" id="saveId"></label>
+                                    <!--<label for=savePassword>비밀번호 기억<input type="checkbox" name="savePassword" id="savePassword"></label> -->
+                                    </div>
+                                    <input type="submit" name="navSubmit" id="navSubmit" value="Login">
+                                    <button type="button" class="navJoin" onclick="location.href='join.html'">Join</button>
+                                </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="wrap2">
+            <div class="banner">
+                <a href="error404.html"><img src="images/realourbanner.png" alt="오런완 광고 배너"></a>
+            </div>
+
+            <div class="mainbox">
+                
+
+                <div class="lookingMemCol">
+
+                    <h2 title="오런완 게시판">오런완 게시판</h2>
+
+                    <div class="rungebuttonwrappertopuizone">  
+                        <div class="rungebuttonwrapper">
+                            <div class="rungebutton">
+                                <button class="jage" onclick="plzwork5()">자유게시판</button>
+                                <button class="jage2" onclick="plzwork5()">오런완 인증</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="MemColContentsWrapper1">
+
+                        <ul class="MemColContents1">
+
+                            <li>
+                                <a href="error404.html">
+                                        <div class="eachMemColContents1">
+
+                                            <img src="images/pepe.jfif" alt="자유게시판 썸네일 1번">
+
+                                            <div class="eachMemColContents1_subdiv">
+                                            <h3>와 오늘 러닝하는데 개구리봄 ㅋㅋ</h3>
+                                            <p>와 씹 낙엽인 줄 알았는데, 갑자기 펄쩍 뛰더라 ㅋㅋ 와 진짜 심장 멎는 줄 알았다.</p>
+                                            
+                                                <ul>
+                                                    <li><span>작성자 : 지네딘 조</span></li>
+                                                    <li><span>1분 전</span></li>
+                                                    <li><span>추천 : 6</span></li>
+                                                    <li><span>2025/06/24 (YY/MM/DD)</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                            </li>
+
+                            <li>
+                                <a href="error404.html">
+                                        <div class="eachMemColContents1">
+
+                                            <img src="images/gianrun.jpg" alt="자유게시판 썸네일 2번">
+
+                                            <div class="eachMemColContents1_subdiv">
+                                            <h3>러닝 올만에 하다 사망할 뻔함</h3>
+                                            <p>수능 끝나고나서 처음으로 제대로 뛰어 볼랬는데
+
+                                                쉬기 전보다 10키로 겨울바람을 들이마시니
+                                                
+                                                다리 쥐 + 기침 콤보나서 중단함..</p>
+                                            
+                                                <ul>
+                                                    <li><span>작성자 : 조영뚝</span></li>
+                                                <li><span>1분 전</span></li>
+                                                <li><span>추천 : 5</span></li>
+                                                <li><span>2025/06/24 (YY/MM/DD)</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                            </li>
+
+                            <li>
+                                <a href="error404.html">
+                                        <div class="eachMemColContents1">
+
+                                            <img src="images/jojo.jfif" alt="자유게시판 썸네일 3번">
+
+                                            <div class="eachMemColContents1_subdiv">
+                                            <h3>풀코스 준비해 본 런붕이들은 섭4가 얼마나 힘든건지 잘 알지..</h3>
+                                            <p>1. 하프 140 찍고나니 풀코스 섭4 (540페이스) 가 슬슬 조스로 보임.
+
+                                                2. 호기롭게 남들 다 하는 첫 30K LSD 갔다가 ... 슬로우가 안되서 26K쯤에서 퍼짐.
+                                                
+                                                3. 각잡고 600으로 30K LSD 하는데 다리 털리고 뒤질거 같음.
+                                                
+                                                4. 몇번 더 30,32K 등 여러번 LSD 해보고는 슬슬 마라톤은 실전인 걸 깨닫게 됨. 600으로 32K도 뒤지겠는데 42.195?? 10K를 더 뛰어야 된다고??? 근데 4시간 10분인데?? 이걸 10분 줄여야 한다고??
+                                                
+                                                5. 슬슬 조스로 보이던 섭4가 어느샌가 큰 장벽이 되서 눈 앞에 보이기 시작함.
+                                                나도 섭4 했지만 그래도 섭4는 어려운거 같음.</p>
+                                            
+                                                <ul>
+                                                    <li><span>작성자 : 더스틴 정</span></li>
+                                                    <li><span>1분 전</span></li>
+                                                    <li><span>추천 : 2114</span></li>
+                                                    <li><span>2025/06/24 (YY/MM/DD)</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                            </li>
+
+                            <li>
+                                <a href="error404.html">
+                                        <div class="eachMemColContents1">
+   
+                                            <img src="images/dustinjungandfriends.jpg" alt="자유게시판 썸네일 4번">
+
+                                            <div class="eachMemColContents1_subdiv">
+                                            <h3>너무 관리만 하지 말고 가끔은 친구들과 시간도 보내라.</h3>
+                                            <p>오랜만에 형제 같은 녀석들과 고삐 풀고 새벽까지 술 마시고 웃고 떠드니 새삼 좋더라.…. 인간이라면 이런 것도 필요하지 싶다.</p>
+                                            
+                                                <ul>
+                                                    <li><span>작성자 : 더스틴 정</span></li>
+                                                    <li><span>1분 전</span></li>
+                                                    <li><span>추천 : 8754</span></li>
+                                                    <li><span>2025/06/24 (YY/MM/DD)</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                            </li>
+
+
+                        </ul>   
+
+                        <div class="underbarWrapper">
+                            <ul class="underbar">
+                                <li><a href="error404.html" class="prev"><img src="images/previous.png" alt="이전 버튼"></a></li>
+                                <li><a class=onpage href="error404.html">1</a></li>
+                                <li><a href="error404.html">2</a></li>
+                                <li><a href="error404.html">3</a></li>
+                                <li><a href="error404.html">4</a></li>
+                                <li><a href="error404.html">5</a></li>
+                                <li><a href="error404.html">...</a></li>
+                                <li><a href="error404.html" class="prev"><img src="images/next.png" alt="다음 버튼"></a></li>
+                            </ul>
+                        </div>
+
+                        <form action="#" method="get" class="searchform">
+                            <label>
+                            <input class="serch-box" type="text" name="search-box" placeholder="검색어 입력">
+                        </label>
+                        <button class="search-btn"><img src="images/dotbogi.png" alt="검색 돋보기 사진"></button>
+                        </form>
+
+                    </div>
+
+                    <div class="MemColContentsWrapper2">
+
+                        <ul class="MemColContents1">
+
+                            <li>
+                                <a href="error404.html">
+                                        <div class="eachMemColContents1">
+
+                                            <img src="images/ohrunwan5.jpg" alt="오런완 인증 게시판 썸네일 1번">
+
+                                            <div class="eachMemColContents1_subdiv">
+                                            <h3>뚱쓰뚱쓰 오런완</h3>
+                                            <p>오랜만애 뛰었어용.</p>
+                                            
+                                                <ul>
+                                                    <li><span>작성자 : 백유진</span></li>
+                                                    <li><span>1분 전</span></li>
+                                                    <li><span>추천 : 12</span></li>
+                                                    <li><span>2025/06/24 (YY/MM/DD)</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                            </li>
+
+                            <li>
+                                <a href="error404.html">
+                                        <div class="eachMemColContents1">
+
+                                            <img src="images/ohrunwan6.jpg" alt="오런완 인증 게시판 썸네일 2번">
+
+                                            <div class="eachMemColContents1_subdiv">
+                                            <h3>[훈련일지] 10km 오런완</h3>
+                                            <p>러닝 3달차인데 스트라바 뉴발연동 오늘처음알아서 개손해봤네ㅠㅠ</p>
+                                            
+                                                <ul>
+                                                    <li><span>작성자 : 마틴 외데고르</span></li>
+                                                <li><span>1분 전</span></li>
+                                                <li><span>추천 : 3</span></li>
+                                                <li><span>2025/06/24 (YY/MM/DD)</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                            </li>
+
+                            <li>
+                                <a href="error404.html">
+                                        <div class="eachMemColContents1">
+
+                                            <img src="images/ohrunwan7.webp" alt="오런완 인증 게시판 썸네일 3번">
+
+                                            <div class="eachMemColContents1_subdiv">
+                                            <h3>모닝 오런완 인터벌 15k</h3>
+                                            <p>홈트 1시간 조지고 450m/450m 10k페이스 인터벌 15세트
+
+                                                온도 6도 습도 75% 풍속 24km/h 돌풍 56km/h 흐림
+                                                
+                                                심박수회복:
+                                                154 (운동직후)
+                                                126 (1분후)
+                                                114 (2분후)
+                                                
+                                                오늘도 화이팅임다</p>
+                                            
+                                                <ul>
+                                                    <li><span>작성자 : 김종민</span></li>
+                                                    <li><span>1분 전</span></li>
+                                                    <li><span>추천 : 10</span></li>
+                                                    <li><span>2025/06/24 (YY/MM/DD)</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                            </li>
+
+                            <li>
+                                <a href="error404.html">
+                                        <div class="eachMemColContents1">
+
+                                            <img src="images/ohrunwan4.jpg" alt="오런완 인증 게시판 썸네일 4번">
+
+                                            <div class="eachMemColContents1_subdiv">
+                                            <h3>오늘도 개 빡세게 러닝 완료...</h3>
+                                            <p>열심히 달리면서 내 심장 소리도 듣고, 숨, 바람, 발걸음 소리만 들으며 한강 보며 멍때리며 생각 정리하기…. 중독될 것 같다.</p>
+                                            
+                                                <ul>
+                                                    <li><span>작성자 : 더스틴 정</span></li>
+                                                    <li><span>1분 전</span></li>
+                                                    <li><span>추천 : 1242</span></li>
+                                                    <li><span>2025/06/24 (YY/MM/DD)</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                </a>
+                            </li>
+
+
+                        </ul>
+
+
+
+                        <div class="underbarWrapper">
+                            <ul class="underbar">
+                                <li><a href="error404.html" class="prev"><img src="images/previous.png" alt="이전 페이지"></a></li>
+                                <li><a class=onpage href="error404.html">1</a></li>
+                                <li><a href="error404.html">2</a></li>
+                                <li><a href="error404.html">3</a></li>
+                                <li><a href="error404.html">4</a></li>
+                                <li><a href="error404.html">5</a></li>
+                                <li><a href="error404.html">...</a></li>
+                                <li><a href="error404.html" class="prev"><img src="images/next.png" alt="다음 페이지"></a></li>
+                            </ul>
+                        </div>
+
+                        <form action="dustinjung.dothome.co.kr/ohrunwan.html" method="get" class="searchform">
+                            <label>
+                            <input class="serch-box" type="text" name="search-box" placeholder="검색어 입력">
+                        </label>
+                        <button class="search-btn"><img src="images/dotbogi.png" alt="서치 창 돋보기 버튼"></button>
+                        </form>
+
+                    </div>
+
+                    <!--제발2-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="inner">
+            <div class="footerlogo">
+                <img src="images/bullet35.png" alt="footer 불릿입니다.">
+                <div><span>></span> 메인 페이지</div>
+            </div>
+            <div class="footerfloat1">
+                <strong>오런완 뉴스테러 구독 신청</strong>
+                <button type="submit" id="newsletterSubBtn" class="btn" onclick="">구독하기</button>
+                <ul class="linklist">
+                    <li><a href="error404.html">뉴스레터</a></li>
+                    <li><a href="error404.html">멤버십</a></li>
+                    <li><a href="error404.html">온라인몰</a></li>
+                    <li><a href="error404.html">자주 묻는 질문</a></li>
+                    <li><a href="join.html">회원가입</a></li>
+                </ul>
+            </div>
+            <div class="footerfloat3">
+                <ul class="footernav">
+                    <li class="bar1">
+                        <a href="notice.html">공지사항</a>
+                    </li>
+                    <li class="bar1">
+                        <a href="runningcrewmap.html">러닝 크루 맵</a>
+                        <a href="lookingforcrewmem.html">크루원 구해요</a>
+                        <a href="lookingforcrew.html">크루 구해요</a>
+                    </li>
+                    <li class="bar1">
+                        <a href="ohrunwan.html">오런완</a>
+                    </li>
+                    <li class="bar1">
+                        <a href="runninginfo.html">러닝 정보</a>
+                        <a href="runningissue.html">러닝 이슈</a>
+                        <a href="info_contest.html">대회 정보</a>
+                    </li>
+                    <li class="bar1">
+                        <a href="guestbook.html">내 방명록</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footerfloat2wrapper">
+                <div class="footerfloat2">
+                    <div class="item itmewidth item1">
+                        <strong style="color:rgb(245, 55, 129);">오런완</strong>
+                        <div><a href="#">인스타그램</a></div>
+                        <div><a href="#">네이버</a></div>
+                        <div><a href="#">페이스북</a></div>
+                        <div><a href="#">유튜브</a></div>
+                    </div>
+                    <div class="item item2">
+                        <strong>관리자 정명기</strong>
+                        <div><a href="https://www.instagram.com/dustinjung_/" class="dustinjunggg">인스타그램</a></div>
+                        <div><a href="https://blog.naver.com/gosoomdoce">네이버</a></div>
+                        <div><a href="https://www.youtube.com/@GangOrDie">유튜브</a></div>
+                    </div>
+                    <div class="item item3">
+                        <strong>관리자 백유진</strong>
+                        <div><a href="https://www.instagram.com/d_aisy_ji/" class="yujinnn">인스타그램</a></div>
+                    </div>
+                </div>
+                <div class="underthefloat2">
+                    <div>
+                        <strong>ABOUT US</strong>
+                        <div class=""><a href="javascript:void(0)" class="firstman crewmap1">아이디어 스케치</a></div>
+                        <div><a href="#" class="crewmap2">와이어 스케치</a></div>
+                        <div><a href="#" class="crewmap3">PPT</a></div>
+                        <div class="lastman1" class=""><a href="#" class="lastman2 crewmap4">관리자의 편지</a></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="inner inner2">
+            <address>
+            오런완 소개&nbsp; 기사 제보&nbsp;
+            보도/편집 규약&nbsp;
+            서비스이용약관&nbsp;
+            개인정보처리방침<br><br>
+
+            러너들을 위한 종합 플랫폼으로, 정보 제공과 소통의 장을 마련합니다.
+
+            서울시 구로구 공원로 83 4층 오런완 (구로동, 544 4층)<br>
+            등록번호 : 서울, 아55665 &nbsp; 등록일자 : 2024년 10월 11일
+            | 제호 : 오런완 | 사업자등록번호 010-6460-5271<br>
+            발행인 : 정명기,백유진 | 편집인 : 정명기 | 청소년보호책임자 : 백유진<br>
+            문의 : 01092552441 contact@Ohrunwan.kr Copyright 2024 © OhRunWhan. All Rights Reserved.
+            </address>
+            <a class="inner2a" href="https://www.wa.or.kr/board/list.asp?BoardID=0006"><img src="images/inzungmark.png" alt="한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)를 그냥 사이트 들어가서 따 온다음 흑백으로 전환한 것. 인증을 받진 않았음."></a>
+            <a href="index.html" class="footerlogoo"><img src="images/320x150logo.png" alt="오런완 로고"></a>
+            <a href="#" class="alinkbullet"><img src="images/alinkbullet.png" alt="페이지 상단 버튼"></a>
+            </div>
+</footer>
+
+<div class="modal modalhidden" >
+    <div id="mainmodal" class="modalback modal3"></div>
+    <div id="mainmodalcont" class="modal2 mainmodalcontents">
+        <h4>오런완 게시판 아이디어 스케치</h4>
+        <img src="images/ohrunwan/1.png" alt=" mainmodal1">
+        <p> 오런완 게시판 아이디어 스케치 입니다.
+            
+            오런완 사이트의 커뮤니티적 성질을 담아내고자 할 게시판이었습니다.
+
+            - <strong>정명기 , 백유진</strong>
+            
+
+            자유게시판과 오런완 인증 두 가지 탭의 기능 구현이 필요했으며,
+
+            img > 요소들의 가로 방향 정렬, 그리고 그것의 세로 방향 정렬을 해보자! 라는 생각이 있었습니다.
+
+            - <strong>정명기</strong>
+
+
+
+
+            생각하고 말하겠습니다.
+
+            - <strong>백유진</strong>
+        
+            
+    
+        </p>
+        <a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고" class="modallogo"></a>
+    </div>
+    </div>
+    
+    <div class="modal modalhidden2" >
+        <div id="mainmodal" class="modalback2 modal3"></div>
+        <div id="mainmodalcont" class="modal2 mainmodalcontents2">
+            <h4> 오런완 게시판 와이어 스케치</h4>
+            <img src="images/ohrunwan/2.jpg" alt=" mainmodal1">
+            <p> 이미지의 크기나, 전체적인 여백은 계속해서 수정했던 페이지였네요.
+
+                작게 갈수도 있었지만, 오런완만의 느낌을 담아내려고 노력했었습니다.
+
+                - <strong>정명기</strong>
+    
+    
+                뭐라 그래야 될까.
+    
+                생각하고 말하겠습니다. 
+    
+                - <strong>백유진</strong>
+            </p>
+            <a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고" class="modallogo"></a>
+        </div>
+        </div>
+    
+        <div class="modal modalhidden3" >
+            <div id="mainmodal" class="modalback3 modal3"></div>
+            <div id="mainmodalcont" class="modal2 mainmodalcontents3">
+                <h4> 전체 PPT</h4>
+                <img src="images/ppt/01.jpg" alt=" mainmodal1">
+                <img src="images/ppt/02.jpg" alt=" mainmodal1">
+                <img src="images/ppt/03.jpg" alt=" mainmodal1">
+                <img src="images/ppt/04.jpg" alt=" mainmodal1">
+                <img src="images/ppt/05.jpg" alt=" mainmodal1">
+                <img src="images/ppt/06.jpg" alt=" mainmodal1">
+                <img src="images/ppt/07.jpg" alt=" mainmodal1">
+                <img src="images/ppt/08.jpg" alt=" mainmodal1">
+                <img src="images/ppt/09.jpg" alt=" mainmodal1">
+                <img src="images/ppt/10.jpg" alt=" mainmodal1">
+                <img src="images/ppt/11.jpg" alt=" mainmodal1">
+                <img src="images/ppt/12.jpg" alt=" mainmodal1">
+                <img src="images/ppt/13.jpg" alt=" mainmodal1">
+                <img src="images/ppt/14.jpg" alt=" mainmodal1">
+                <img src="images/ppt/15.jpg" alt=" mainmodal1">
+                <img src="images/ppt/16.jpg" alt=" mainmodal1">
+                <img src="images/ppt/17.jpg" alt=" mainmodal1">
+                <img src="images/ppt/18.jpg" alt=" mainmodal1">
+                <img src="images/ppt/19.jpg" alt=" mainmodal1">
+                <img src="images/ppt/20.jpg" alt=" msainmodal1">
+                <img src="images/ppt/21.jpg" alt=" mainmodal1">
+                <img src="images/ppt/22.jpg" alt=" mainmodal1">
+                <img src="images/ppt/23.jpg" alt=" mainmodal1">
+                <img src="images/ppt/24.jpg" alt=" mainmodal1">
+                <img src="images/ppt/25.jpg" alt=" mainmodal1">
+                <img src="images/ppt/26.jpg" alt=" mainmodal1">
+                <p> PPT의 경우, 구상은 함께 했지만 제작은 팀원인 백유진님의 비중이 컸었네요.
+    
+                    한정된 시간 속에서, 역할 분배를 하느라 어쩔수가 없었습니다.
+    
+                    저는 코딩에 비중을, 팀원인 백유진님은 디자이닝의 비중을 둔 프로젝트였습니다.
+                    
+                    - <strong>정명기</strong>
+        
+        
+                    뭐라 그래야 될까.
+        
+                    생각하고 말하겠습니다. 
+        
+                    - <strong>백유진</strong>
+                </p>
+                <a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고" class="modallogo"></a>
+            </div>
+            </div>   
+    
+            <div class="modal modalhidden4" >
+                <div id="mainmodal" class="modalback4 modal3"></div>
+                <div id="mainmodalcont" class="modal2 mainmodalcontents4">
+                    <h4> 관리자의 편지</h4>
+                    <img src="images/mainpage/mainsilsa.jpg" alt=" mainmodal1">
+                    <h4>오런완 게시판 페이지를 제작하며..</h4>
+    
+                    <p class="messagemodal"> 게시판 탭을 클릭하면 그에 따라 게시판들이 나오도록 구현하는 것은,
+
+                        html과 css를 입문한 지 한달밖에 되지 않았던 저에게는 크나큰 도전이었습니다.
+
+                        학원에서 잠깐 배운 radio를 동위선택자와 연결해 응용했었습니다만,
+
+                        프로젝트 막바지 즈음에, javascript의 아주 간단한 겉핥기 식 독학을 통해서
+
+                        동위 선택자 구조 대신에 바닐라 javascript로 구현해 놓았습니다.
+
+                        추후에 JS에 대해서 공부한다면, 이 페이지를 다시 뜯어 고칠수도 있겠네요.
+
+                        저에겐 개인적으로 배움이 많았던 게시판이었습니다 ! 
+                        
+                        - <strong>정명기</strong>
+
+            
+                        뭐라 그래야 될까.
+            
+                        생각하고 말하겠습니다. 
+            
+                        - <strong>백유진</strong>
+    
+                        
+                    </p>
+    
+                    <h4> 1차 프로젝트를 진행하며..</h4>
+    
+                    <p> 1차 프로젝트에서 얻은 것들이 정말 많습니다. 
+    
+                        웹 디자인과 코딩 입문을 학원에서 시작해서,
+    
+                        1달 간 일러스트, 포토샵, html과 css의 기본을 배우고 시작한 프로젝트 오런완.
+    
+                        약 4주간의 기간동안 열심히 만들었는데요, 이 프로젝트 기간동안
+    
+                        코딩적 생각에 있어서 획기적인 발전을 이뤘다고 생각합니다.
+
+                        가장 주된 목적은, 1달간 배운 모든 걸 활용하자는 생각이었습니다.
+    
+                        머릿속에 떠오른 구성들을 다른 페이지를 참조하지 않고 구현해냈던 과정 속에서,
+    
+                        정말 여러가지 시도가 있었고, html과 css도 여러번 수정을 거치며,
+    
+                        페이지를 만든 시간적 서순에 따라 실력 발전을 느꼈습니다.
+
+                        시간적인, 그리고 역할적인 문제들 때문에 둘 다 동등한 겸업을 했지만,
+
+                        아무래도 저는 코딩쪽에, 팀원인 백유진님은 디자인쪽에 더 치중했던 프로젝트가 아니었나 생각됩니다.
+
+                        물론 둘 다 코딩과 디자인을 넘나 들며 프로젝트를 진행했지만요.
+
+                        디자인적인 측면에서 저 스스로의 부족함을 많이 느끼기도 했습니다.
+
+                        팀원인 백유진님에게서 디자인 감각을 많이 배우기도 하는 시간이었네요.
+    
+                        이 소중한 경험을 토대로 2차 프로젝트도 제대로 뽑아내야 겠단 욕심이 듭니다.
+
+                        아, 그리고 회원가입 페이지 관리자의 편지에는 404페이지와 footer에 관한 내용도 있으니 잊지 말고 봐주시면 감사하겠습니다!
+    
+                        저희의 결과물을 봐주셔서 감사합니다!
+                        
+                        - <strong>정명기</strong>
+
+                        
+    
+                        뭐라 그래야 될까.
+            
+                        생각하고 말하겠습니다. 
+            
+                        - <strong>백유진</strong>
+    
+                    </p>
+                    <a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고" class="modallogo"></a>
+                </div>
+                </div>
+
+
+    <script src="css/master.js"></script>
+    <script src="css/ohrunwan.js"></script>
+</body>
+</html>

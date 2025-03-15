@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/mainpage.css">
+    <link rel="shortcut icon" href="images/320x150logo.png" type="image/x-icon">
+    <title>오런완 - "회원가입"</title>
+    
+</head>
+
+<body id="join">
+
+        <div id="wrap2">
+
+            <div class="mainbox">
+                <div class="lookingMemCol">
+                    <div class="crewMemTopUiZone">
+                        <div class="crewMemUiWrapper">  
+                            <ul class="crewMemUi">
+                                <li><button class="button1" onclick="plzwork3()">로그인</button></li>
+                                <li><button class="button2" onclick="plzwork3()">회원가입</button></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    
+                
+
+                    <div class="MemColContentsWrapper joinForm1">
+
+                    <div class="formBar">
+                        
+                        <h1 title="오런완"><a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고"></a></h1>
+
+                            <form method="post" autocomplete="off" action="dustinjung.dothome.co.kr" id="loginForm">
+                                
+                                    <input type="text" id="navId" name="navId" required  maxlength="30" placeholder="E-mail">
+                                    <input type="password" id="navPassword" name="navPassword" required  maxlength="30" placeholder="Password">
+
+                                    <div class="check_box">
+
+                                    <label for=autoLogin>자동 로그인<input type="checkbox" name="autoLogin" id="autoLogin"></label>
+                                    <label for=saveId>아이디 저장<input type="checkbox" name="saveId" id="saveId"></label>
+                                    <!--<label for=savePassword>비밀번호 기억<input type="checkbox" name="savePassword" id="savePassword"></label> -->
+                                    </div>
+
+                                    <input type="submit" name="navSubmit" id="navSubmit" value="Login">
+                                    
+                                </form>
+                        </div>
+                        <ul>
+                            <li><a href="error404.html">비밀번호 찾기</a></li>
+                            <li><a href="error404.html">아이디 찾기</a></li>
+                            <li><a href="join.html">회원가입</a></li>
+                        </ul>
+
+
+                    </div>
+
+                    <div class="MemColContentsWrapper joinForm2">
+                    
+                        
+                        <form method="post" autocomplete="off" action="dustinjung.dothome.co.kr" id="loginform2" class="formTag">
+                            
+                            
+                            <div class="formlist">
+
+                                <h1 title="오런완"><a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고" width="160" height="75"></a></h1>
+                            
+                                <div class="form_item">
+                                    <input type="text" id="id" name="id" placeholder="아이디" maxlength="30" required autofocus>
+                                </div>
+
+                                <div class="form_pass">
+                                    <input type="text" id="passward" name="passward" placeholder="패스워드" required maxlength="30">
+                                </div>
+                                
+                                <div class="form_mail">
+                                    <input type="email" id="e-mail" name="e-mail" placeholder="이메일" required>
+                                    <div class="selectWrapper">
+                                        <label for="sex" style="color: rgb(85, 85, 85);">@</label>
+                                        <select name="sex" id="sex" style="color: rgb(85, 85, 85);">
+                                            <option>naver.com</option>
+                                            <option>gmail.com</option>
+                                            <option>daum.net</option>
+                                            <option>nate.net</option>
+                                        </select>
+                                        </div>
+                                </div>
+
+                                <div class="form_name">
+                                    <input type="text" id="name" name="name" placeholder="이름" required>
+                                </div>
+                   
+                                <div class="form_date">
+                                   <input type="text" id="date" name="date" placeholder="YYYYMMDD" required>
+                                </div>
+                                <div class="formGenWrapper">
+                                    <div class="form_Gen1">
+                                        <input type="radio" id="Gender1" name="Gender" value="M">
+                                        <label for="Gender1">남성</label>
+                                        <input type="radio" id="Gender2" name="Gender" value="F">
+                                        <label for="Gender2">여성</label>
+                                    </div>
+
+                                    <div class="form_Gen2">
+                                        <input type="radio" id="foreigner1" name="foreigner" value="K">
+                                        <label for="foreigner1">내국인</label>
+                                        <input type="radio" id="foreigner2" name="foreigner" value="F">
+                                        <label for="foreigner2">외국인</label>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        
+                            <div class="formlist2">
+                                
+                                <div class="form_searchbar">
+                                    <h4>광고성 정보 수신 동의</h4>
+                                    <label for=formsearchn1>크루 활동 일정<input type="checkbox" name="formsearch" id="formsearchn1"></label>
+                                    <label for=formsearchn2>러닝크루 추천<input type="checkbox" name="formsearch" id="formsearchn2"></label>
+                                    <label for=formsearchn3>이벤트 정보<input type="checkbox" name="formsearch" id="formsearchn3"></label>
+                                </div>
+
+                                <div class="form_search">
+                                    <h4>오시게 된 경로</h4>
+                                    <label for=formsearchn4>검색<input type="checkbox" name="formsearch4" id="formsearchn4"></label>
+                                    <label for=formsearchn5>커뮤니티<input type="checkbox" name="formsearch5" id="formsearchn5"></label>
+                                    <label for=formsearchn6>소셜미디어<input type="checkbox" name="formsearch6" id="formsearchn6"></label>
+                                    <label for=formsearchn7>지인추천<input type="checkbox" name="formsearch7" id="formsearchn7"></label>
+                                    <label for=formsearchn8>광고/이벤트<input type="checkbox" name="formsearch8" id="formsearchn8"></label>
+                               </div>
+
+                            </div> 
+                         
+                            <input type="submit" name="navSubmit" id="navSubmit2" value="가입하기">
+                         </form>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="inner">
+                <div class="footerlogo">
+                    <img src="images/bullet35.png" alt="footer 불릿입니다.">
+                    <div><span>></span> 메인 페이지</div>
+                </div>
+                <div class="footerfloat1">
+                    <strong>오런완 뉴스테러 구독 신청</strong>
+                    <button type="submit" id="newsletterSubBtn" class="btn" onclick="">구독하기</button>
+                    <ul class="linklist">
+                        <li><a href="error404.html">뉴스레터</a></li>
+                        <li><a href="error404.html">멤버십</a></li>
+                        <li><a href="error404.html">온라인몰</a></li>
+                        <li><a href="error404.html">자주 묻는 질문</a></li>
+                        <li><a href="join.html">회원가입</a></li>
+                    </ul>
+                </div>
+                <div class="footerfloat3">
+                    <ul class="footernav">
+                        <li class="bar1">
+                            <a href="notice.html">공지사항</a>
+                        </li>
+                        <li class="bar1">
+                            <a href="runningcrewmap.html">러닝 크루 맵</a>
+                            <a href="lookingforcrewmem.html">크루원 구해요</a>
+                            <a href="lookingforcrew.html">크루 구해요</a>
+                        </li>
+                        <li class="bar1">
+                            <a href="ohrunwan.html">오런완</a>
+                        </li>
+                        <li class="bar1">
+                            <a href="runninginfo.html">러닝 정보</a>
+                            <a href="runningissue.html">러닝 이슈</a>
+                            <a href="info_contest.html">대회 정보</a>
+                        </li>
+                        <li class="bar1">
+                            <a href="guestbook.html">내 방명록</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footerfloat2wrapper">
+                    <div class="footerfloat2">
+                        <div class="item itmewidth item1">
+                            <strong style="color:rgb(245, 55, 129);">오런완</strong>
+                            <div><a href="#">인스타그램</a></div>
+                            <div><a href="#">네이버</a></div>
+                            <div><a href="#">페이스북</a></div>
+                            <div><a href="#">유튜브</a></div>
+                        </div>
+                        <div class="item item2">
+                            <strong>관리자 정명기</strong>
+                            <div><a href="https://www.instagram.com/dustinjung_/" class="dustinjunggg">인스타그램</a></div>
+                            <div><a href="https://blog.naver.com/gosoomdoce">네이버</a></div>
+                            <div><a href="https://www.youtube.com/@GangOrDie">유튜브</a></div>
+                        </div>
+                        <div class="item item3">
+                            <strong>관리자 백유진</strong>
+                            <div><a href="https://www.instagram.com/d_aisy_ji/" class="yujinnn">인스타그램</a></div>
+                        </div>
+                    </div>
+                    <div class="underthefloat2">
+                        <div>
+                            <strong>ABOUT US</strong>
+                            <div class=""><a href="javascript:void(0)" class="firstman crewmap1">아이디어 스케치</a></div>
+                            <div><a href="#" class="crewmap2">와이어 스케치</a></div>
+                            <div><a href="#" class="crewmap3">PPT</a></div>
+                            <div class="lastman1" class=""><a href="#" class="lastman2 crewmap4">관리자의 편지</a></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="inner inner2">
+                <address>
+                오런완 소개&nbsp; 기사 제보&nbsp;
+                보도/편집 규약&nbsp;
+                서비스이용약관&nbsp;
+                개인정보처리방침<br><br>
+    
+                러너들을 위한 종합 플랫폼으로, 정보 제공과 소통의 장을 마련합니다.
+    
+                서울시 구로구 공원로 83 4층 오런완 (구로동, 544 4층)<br>
+                등록번호 : 서울, 아55665 &nbsp; 등록일자 : 2024년 10월 11일
+                | 제호 : 오런완 | 사업자등록번호 010-6460-5271<br>
+                발행인 : 정명기,백유진 | 편집인 : 정명기 | 청소년보호책임자 : 백유진<br>
+                문의 : 01092552441 contact@Ohrunwan.kr Copyright 2024 © OhRunWhan. All Rights Reserved.
+                </address>
+                <a class="inner2a" href="https://www.wa.or.kr/board/list.asp?BoardID=0006"><img src="images/inzungmark.png" alt="한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)를 그냥 사이트 들어가서 따 온다음 흑백으로 전환한 것. 인증을 받진 않았음."></a>
+                <a href="index.html" class="footerlogoo"><img src="images/320x150logo.png" alt="오런완 로고"></a>
+                <a href="#" class="alinkbullet"><img src="images/alinkbullet.png" alt="페이지 상단 버튼"></a>
+                </div>
+    </footer>
+
+    <div class="modal modalhidden" >
+        <div id="mainmodal" class="modalback modal3"></div>
+        <div id="mainmodalcont" class="modal2 mainmodalcontents">
+            <h4>회원가입 아이디어 스케치</h4>
+            <img src="images/guest/1.png" alt=" mainmodal1">
+            <p>회원가입 페이지 아이디어 스케치 입니다.
+                
+               회원가입 페이지만 구현하고 로그인은 네비게이션에 넣을까 했었는데요,
+
+               결국엔 네비에 로그인도 넣고, 회원가입 페이지에 로그인 페이지도 script로 변경 가능하게 구현해 놓았습니다.
+
+               디자인의 일률성을 챙겼고, 신경을 꽤 많이 썼습니다.
+    
+                - <strong>정명기 , 백유진</strong>  
+
+              
+        
+            </p>
+            <a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고" class="modallogo"></a>
+        </div>
+        </div>
+        
+        <div class="modal modalhidden2" >
+            <div id="mainmodal" class="modalback2 modal3"></div>
+            <div id="mainmodalcont" class="modal2 mainmodalcontents2">
+                <h4>회원가입 페이지 와이어 스케치</h4>
+                <img src="images/guest/2.jpg" alt=" mainmodal1">
+                <p> 회원가입 페이지와 로그인 페이지의 디자인은 정말 많은 변화를 가졌습니다.
+
+                    전체적인 오런완 사이트와의 일관성을 유지하며, 깔끔한 느낌을 주고 싶었거든요.
+
+                    동시에 로그인 버튼과 회원가입 버튼을 눌렀을 때 나오는 내용물들의 디자인과 높이 등이 심하게 바뀌지 않도록 설계해 놓았습니다.
+    
+                    - <strong>정명기 , 백유진</strong>
+        
+    
+                </p>
+
+                <a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고" class="modallogo"></a>
+            </div>
+            </div>
+        
+            <div class="modal modalhidden3" >
+                <div id="mainmodal" class="modalback3 modal3"></div>
+                <div id="mainmodalcont" class="modal2 mainmodalcontents3">
+                    <h4> 전체 PPT</h4>
+                    <img src="images/ppt/01.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/02.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/03.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/04.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/05.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/06.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/07.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/08.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/09.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/10.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/11.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/12.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/13.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/14.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/15.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/16.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/17.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/18.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/19.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/20.jpg" alt=" msainmodal1">
+                    <img src="images/ppt/21.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/22.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/23.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/24.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/25.jpg" alt=" mainmodal1">
+                    <img src="images/ppt/26.jpg" alt=" mainmodal1">
+                    <p> PPT의 경우, 구상은 함께 했지만 제작은 팀원인 백유진님의 비중이 컸었네요.
+        
+                        한정된 시간 속에서, 역할 분배를 하느라 어쩔수가 없었습니다.
+        
+                        저는 코딩에 비중을, 팀원인 백유진님은 디자이닝의 비중을 둔 프로젝트였습니다.
+    
+                        사이트 전반적인 디자인에 크게 관여하면서, ppt제작까지 완벽하게 수행해 준 백유진 팀원에게 감사 인사를 전합니다.
+                        
+                        - <strong>정명기</strong>
+            
+            
+                        뭐라 그래야 될까.
+            
+                        생각하고 말하겠습니다. 
+            
+                        - <strong>백유진</strong>
+                    </p>
+                    <a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고" class="modallogo"></a>
+                </div>
+                </div>   
+        
+                <div class="modal modalhidden4" >
+                    <div id="mainmodal" class="modalback4 modal3"></div>
+                    <div id="mainmodalcont" class="modal2 mainmodalcontents4">
+                        <h4> 관리자의 편지</h4>
+                        <img src="images/mainpage/mainsilsa.jpg" alt=" mainmodal1">
+                        <h4>회원가입 페이지를 제작하며..</h4>
+        
+                        <p class="messagemodal"> 
+                           이 페이지에서 저는 로그인 페이지의 전체적인 코딩과 디자인을 했으며,
+                           
+                           스크립트로 회원가입페이지와 로그인 페이지의 탭기능을 구현했습니다.
+
+                           또한, 회원가입 페이지의 일부 코딩에도 다소 기여하였습니다.
+
+                           그러나 전체적인 디자인과 너비, 높이 설정에서는 역시 백유진 팀원의 터치가 많이 가미되었고,
+
+                           그를 통해 정말 많은것을 배운 페이지였습니다..
+
+                           여러가지 input들을 활용한 코딩, 그리고 그 input들의 디자인과 그것의 구현.
+
+                           많은 성장을 이뤄낼 수 있었던 페이지였습니다!!
+    
+    
+                            - <strong>정명기</strong>
+    
+                
+                            뭐라 그래야 될까.
+                
+                            생각하고 말하겠습니다. 
+                
+                            - <strong>백유진</strong>
+
+
+                        </p>
+
+                            <img src="images/join/5.png">
+                <h4>404페이지에 관하여..</h4>
+                <p class="messagemodal"> 
+                    404 페이지는 프로젝트 막바지에 하나 필요하다 싶어서 제가 뚝딱 뚝딱 만들었습니다.
+    
+                    404 페이지는 따로 스케치를 거치지 않고 새벽에 작업하였는데요,
+
+                    만들기 전에 찾아보니, 404페이지에 약간의 위트와 재치가 있으면 좋다더군요. 즉각 반영해 보았습니다.
+
+                    빈 러닝 트랙을 배경으로 깔고 싶었고, 네비게이션과 홈버튼을 동시에 집어 넣어서 여러 갈래로 갈 방향성을 제시해 주고 싶었으며,
+
+                    404라는 큰 글씨와 사용자가 당황하지 않도록 달래주면서 재치를 추가하는 애니메이션을 넣어 놓았습니다.
+    
+                    - <strong>정명기</strong>
+                    
+        
+                    
+                </p>
+
+                <img src="images/join/6.png">
+                <h4>footer 디자인에 관하여..</h4>
+                <p class="messagemodal"> footer도 제가 새벽에 작업하였습니다.
+
+                    404페이지와 동일하게, 프로젝트 최종 단계에서 추가해 놓았는데요,
+
+                    거의 처음으로 코딩의 구현 이외에, 여백과 보더의 활용,폰트 웨이트와 사이즈 등의 측면에서
+
+                    팀원인 백유진님의 수정 없이 거의 통과가 되었던 디자인이었습니다.
+
+                    한달간의 프로젝트 기간동안 저의 디자인 능력도 꽤나 올라갔다고 생각되는 푸터 디자인이네요!
+
+                    저 스스로도 정말 마음에 드는 배치이며,
+
+                    푸터 밑에 로고에는 애니메이션도 구현해 놓았습니다 !
+
+                    또한, 푸터에 ABOUT US를 통해 저와 팀원인 백유진님의 셀프 어필을 하는 아이디어도 아주 기발하다고 생각합니다!
+    
+                    - <strong>정명기</strong>
+        
+    
+                </p>
+        
+                            
+                        
+        
+                        <h4> 1차 프로젝트를 진행하며..</h4>
+        
+                        <p> 1차 프로젝트에서 얻은 것들이 정말 많습니다. 
+        
+                            웹 디자인과 코딩 입문을 학원에서 시작해서,
+        
+                            1달 간 일러스트, 포토샵, html과 css의 기본을 배우고 시작한 프로젝트 오런완.
+        
+                            약 4주간의 기간동안 열심히 만들었는데요, 이 프로젝트 기간동안
+        
+                            코딩적 생각에 있어서 획기적인 발전을 이뤘다고 생각합니다.
+    
+                            가장 주된 목적은, 1달간 배운 모든 걸 활용하자는 생각이었습니다.
+        
+                            머릿속에 떠오른 구성들을 다른 페이지를 참조하지 않고 구현해냈던 과정 속에서,
+        
+                            정말 여러가지 시도가 있었고, html과 css도 여러번 수정을 거치며,
+        
+                            페이지를 만든 시간적 서순에 따라 실력 발전을 느꼈습니다.
+    
+                            시간적인, 그리고 역할적인 문제들 때문에 둘 다 동등한 겸업을 했지만,
+    
+                            아무래도 저는 코딩쪽에, 팀원인 백유진님은 디자인쪽에 더 치중했던 프로젝트가 아니었나 생각됩니다.
+    
+                            물론 둘 다 코딩과 디자인을 넘나 들며 프로젝트를 진행했지만요.
+    
+                            디자인적인 측면에서 저 스스로의 부족함을 많이 느끼기도 했습니다.
+    
+                            팀원인 백유진님에게서 디자인 감각을 많이 배우기도 하는 시간이었네요.
+        
+                            이 소중한 경험을 토대로 2차 프로젝트도 제대로 뽑아내야 겠단 욕심이 듭니다.
+        
+                            저희의 결과물을 봐주셔서 감사합니다!
+    
+                            
+                            - <strong>정명기</strong>
+    
+                            
+        
+                            뭐라 그래야 될까.
+                
+                            생각하고 말하겠습니다. 
+                
+                            - <strong>백유진</strong>
+    
+    
+                            -2024년 12월 1일.
+    
+                            정명기, 백유진 (이하, Team. 오런완) 올림.
+        
+                        </p>
+                        <a href="index.html"><img src="images/320x150logo.png" alt="오런완 로고" class="modallogo"></a>
+                    </div>
+                    </div>
+                    
+    
+    <script src="css/ohrunwan.js"></script>
+    <script src="css/master.js"></script>
+</body>
+</html>
